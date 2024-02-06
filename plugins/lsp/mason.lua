@@ -37,10 +37,10 @@ mason_lspconfig.setup {
     -- "intelephense",
 
     -- C/C++
-    -- "clangd",
+    "clangd",
 
     -- CMake
-    -- "neocmake",
+    "neocmake",
 
     -- Java
     -- "jdtls",
@@ -52,8 +52,11 @@ mason_lspconfig.setup {
     -- "pyright",
 
     -- Go
-    -- "gopls",
+    "gopls",
 
+    -- Rust
+    "rust-analyzer",
+    
     -- C#
     -- "omnisharp",
     -- "omnisharp-mono",
